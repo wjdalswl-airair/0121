@@ -2,8 +2,8 @@
 
 int main() {
     // Please write your code here.
-    int scroe;
-    scanf("%d", &score)
+    int score;
+    scanf("%d", &score);
 
     if (score >= 90) {
         printf("A");
