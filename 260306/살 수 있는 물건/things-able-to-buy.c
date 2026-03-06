@@ -9,10 +9,10 @@ int main() {
         printf("book");
     }    
     else if (n >= 1000) {
-        printf("mask")
+        printf("mask");
     }
     else {
-        printf("no")
+        printf("no");
     }
     return 0;
 }
