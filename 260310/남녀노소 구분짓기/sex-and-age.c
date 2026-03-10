@@ -11,7 +11,7 @@ int main() {
         else {
             printf("BOY");
         }
-    }
+        }
     else {
        if (age >= 19) {
             printf("WOMAN");
@@ -19,7 +19,7 @@ int main() {
         else {
             printf("GIRL");
         } 
-    }
-    }
+        }
+    
     return 0;
 }
