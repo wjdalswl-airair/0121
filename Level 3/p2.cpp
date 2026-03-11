@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+	int a,b;
+	scanf("%d %d", &a,&b);
+	if (a > b) {
+		printf("큰수는 %d",a);
+	}
+	else if (a<b) {
+		printf("큰수는 %d", b);
+	}
+	else {
+		printf("같은숫자");
+	}
+	return 0;
+}
