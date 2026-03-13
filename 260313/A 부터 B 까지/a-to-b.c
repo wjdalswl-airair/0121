@@ -7,12 +7,14 @@ int main() {
     int result = a;
     while (result <=b) {
         if (result %2==1) {
-            result = 2*result;
             printf("%d ",result);
+            result = 2*result;
+            
         }
         else {
-            result = result +3;
             printf("%d ",result);
+            result = result +3;
+            
         }
     }
     return 0;
