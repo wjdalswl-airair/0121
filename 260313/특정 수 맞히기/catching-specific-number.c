@@ -7,10 +7,10 @@ int main() {
         int n;
         scanf("%d",&n);
         if (n<25) {
-            printf("Higher");
+            printf("Higher\n");
         }
         else if (n>25) {
-            printf("Lower");
+            printf("Lower\n");
         }
         else {
             printf("Good");
