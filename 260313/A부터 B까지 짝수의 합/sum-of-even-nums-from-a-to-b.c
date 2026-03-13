@@ -9,7 +9,9 @@ int main() {
         if (i%2==0) {
            total += i; 
         }
-        
+        else {
+            continue;
+        }
     }
     printf("%d",total);
     return 0;
