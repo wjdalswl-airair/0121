@@ -3,7 +3,7 @@
 int main() {
     // Please write your code here.
     int n,m;
-    sanf("%d %d",&n,&m);
+    scanf("%d %d",&n,&m);
 
     int arr1[10][10];
     int arr2[10][10];
@@ -24,10 +24,10 @@ int main() {
     for (int i=0; i<n;i++) {
         for (int j=0;j<m;j++) {
             if (arr1[i][j]==arr2[i][j]) {
-                printf("%d",1);
+                printf("%d ",0);
             }
             else {
-                printf("%d",0);
+                printf("%d ",1);
             }
         }
         printf("\n");
